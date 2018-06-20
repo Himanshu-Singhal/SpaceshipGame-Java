@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Android Spaceship Game</string>
+    <string name="abc_s_of_android_game_dev">ABC\'s of Android Game Dev</string>
+    <string name="reset">Reset</string>
+    <string name="sprite_speed">Sprite Speed (?,?)</string>
+    <string name="last_collision_xy">Last Collision XY (?,?)</string>
+</resources>
