@@ -64,30 +64,7 @@ public class MainActivity extends Activity implements OnClickListener {
                     (((GameBoard) findViewById(R.id.the_canvas)).getSprite3X(),
                             ((GameBoard) findViewById(R.id.the_canvas)).getSprite3Y());
 
-
-
-
-//            int pColor = ((GameBoard) findViewById(R.id.the_canvas)).getPaintColor();
-//            if (sprite4MaxX.x<= sprite4MaxX + ((GameBoard) findViewById(R.id.the_canvas))
-//                    .getSprite4Width()) {
-//                sprite4MaxX.x += sprite4MaxX / 300;
-//            }
-//
-//            if (sprite4MaxX.x >= sprite4MaxX - sprite4MaxX / 2) {
-//                if (sprite5MaxX.x < sprite5MaxX) {
-//                    sprite5MaxX.x += sprite5MaxX / 300;
-//                }
-//            }
-//
-//            if (Color != Color.WHITE) {
-//                if (sprite4MaxX.x > sprite4MaxX - (((GameBoard) findViewById(R.id.the_canvas))
-//                        .getSprite4Width()/2)) {
-//                    if (pColor == 252) pColor += 1;
-//                    ((GameBoard) findViewById(R.id.the_canvas)).(Color.argb(255,
-//                            pColor + 1, pColor + 1, pColor + 1));
-//                    pColor += 1;
-//                }
-//            }
+            
 
             sprite1.x = sprite1.x + sprite1Velocity.x;
             if (sprite1.x > sprite1MaxX || sprite1.x < 5) {

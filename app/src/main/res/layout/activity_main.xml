@@ -10,7 +10,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="top|center"
-        android:text="@string/abc_s_of_android_game_dev" />
+        android:textSize="25sp"
+        android:text="Collision Detection!"/>
 
     <Button
         android:id="@+id/the_button"
@@ -26,6 +27,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:textSize="20sp"
         android:text="@string/sprite_speed" />
 
     <TextView
@@ -33,6 +35,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:textSize="20sp"
         android:text="@string/last_collision_xy" />
 
 
